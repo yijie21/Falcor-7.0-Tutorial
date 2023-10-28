@@ -34,7 +34,6 @@ extern "C" FALCOR_API_EXPORT void registerPlugin(Falcor::PluginRegistry& registr
 
 namespace {
     const char kShaderFile[] = "D:/code/Falcor/Source/RenderPasses/WireframePass/WireframePass.3d.slang";
-    const std::string shaderModel = "6_2";
 }
 
 WireframePass::WireframePass(ref<Device> pDevice, const Properties& props) : RenderPass(pDevice) {
